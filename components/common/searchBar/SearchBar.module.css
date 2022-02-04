@@ -1,0 +1,11 @@
+.root{
+    @apply relative w-full h-full  lg:w-1/2 border border-gray-500  
+}
+
+.input{
+    @apply w-full px-4 py-2 focus:border-red-400 
+}
+
+.icon{
+    @apply  w-5 absolute right-2 top-1/2 -translate-y-1/2
+}

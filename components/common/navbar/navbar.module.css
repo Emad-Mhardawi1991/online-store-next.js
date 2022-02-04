@@ -1,0 +1,15 @@
+.root{
+    @apply  flex justify-center items-center w-full 
+  }
+  
+.nav_container{
+    @apply  py-5 px-6 w-full max-w-screen-2xl flex justify-between items-center flex-wrap gap-5 
+  }
+
+.search_bar_container{
+    @apply  grow w-full md:w-fit  md:order-none  order-last flex justify-center items-center
+}
+
+.menu_icon{
+    @apply w-7 h-7 md:hidden 
+}
