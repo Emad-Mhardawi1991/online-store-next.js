@@ -1,0 +1,31 @@
+.card_box {
+  @apply  bg-gray-200 shadow-lg  shadow-gray-400 relative flex flex-col  cursor-pointer rounded-lg overflow-hidden;  
+}
+
+/* styling card image*/
+.image_box {
+  @apply bg-gray-800 h-60 relative ;
+}
+
+/* styling card content*/
+.card_content {
+  @apply p-2 flex flex-col justify-between  flex-grow;
+}
+.card_content div {
+  @apply flex justify-between mt-7;
+}
+.card_content h2 {
+  @apply font-semibold text-xl;
+}
+
+.card_content p {
+  @apply text-red-400 text-xl font-semibold;
+}
+
+/* styling card icons*/
+.heart_icon {
+  @apply text-red-500 absolute w-7 h-7 top-0 right-0 m-4 hover:fill-red-500 cursor-pointer;
+}
+.shopping_bag_icon {
+  @apply cursor-pointer;
+}

@@ -1,5 +1,5 @@
 .root{
-    @apply  flex justify-center items-center w-full 
+    @apply  flex justify-center items-center w-full border-gray-200 border-b
   }
   
 .nav_container{
@@ -11,5 +11,5 @@
 }
 
 .menu_icon{
-    @apply w-7 h-7 md:hidden 
+    @apply w-7 h-7 lg:hidden 
 }

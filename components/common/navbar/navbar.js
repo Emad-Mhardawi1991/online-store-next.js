@@ -18,7 +18,7 @@ const NavBar = () => {
           </a>
         </Link>
 
-        <div className=" hidden  md:flex  gap-3  pr-6  lg:pr-0">
+        <div className=" hidden  lg:flex  gap-3  pr-6  lg:pr-0">
           <Link href="/"> ABOUT</Link>
           <Link href="/">FIND US</Link>
         </div>

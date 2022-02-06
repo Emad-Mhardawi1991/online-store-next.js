@@ -1,0 +1,3 @@
+.page_content{
+    @apply  max-w-screen-2xl mx-auto px-6 relative flex gap-6 
+}
